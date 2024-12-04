@@ -1,0 +1,14 @@
+/* MainPage.css */
+.card {
+  width: 18rem;  /* Adjust the width */ 
+  height: 250px;  /* Adjust the height */
+  padding: 20px;  /* Adjust padding */
+  box-shadow: 0 4px 8px rgba(37, 7, 206, 0.2);  /* Add shadow for effect */
+  text-decoration-color: black;
+}
+
+.container {
+  max-width: 1300px; /* Max container width */
+  padding: 30px; /* Padding adjustment */
+}
+

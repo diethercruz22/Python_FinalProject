@@ -1,0 +1,33 @@
+/* App.css or Header.css */
+.header {
+    background: rgba(255, 255, 255, 0.027); /* Semi-transparent background */
+    color: rgba(19, 18, 18, 0.411);
+    padding: 10px 80px;
+    position: relative;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.781); /* Border for a glassy effect */
+    box-shadow: 0 4px 8px rgba(38, 0, 141, 0.2); /* Subtle shadow for depth */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    margin: 0px 0px 30px;
+  }
+  
+  .home-button {
+    background-color: #000000;
+    position: right;
+    color: rgb(238, 229, 229); /* Initial text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* Added color transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.89);
+}
+  
+  .home-button:hover {
+    background-color: #d6dde927; /* Change background color on hover */
+    color: rgb(5, 5, 5); /* Change text color on hover */
+    transform: scale(1.1); /* Slightly grow the button */
+    box-shadow: 0 4px 8px rgba(253, 253, 253, 0.856);
+
+  }
+  
